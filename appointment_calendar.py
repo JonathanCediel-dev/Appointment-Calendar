@@ -129,7 +129,7 @@ entrada_desc = ctk.CTkEntry(ventana, placeholder_text="Descripción de la cita",
 entrada_desc.pack(pady=5)
 
 # boton para agregar una nueva cita
-boton_agregar = ctk.CTkButton(ventana, text="Agregar cita", command=agregar_cita)
+boton_agregar = ctk.CTkButton(ventana, text="Agregar Cita", command=agregar_cita)
 boton_agregar.pack(pady=10)
 
 # Caja desplegable para mostrar las citas del día seleccionado
